@@ -1,0 +1,20 @@
+.media {
+  cursor: pointer;
+  transition: 0.4s all ease;
+  position: relative;
+  .list-unstyled_img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-right: 15px;
+  }
+  &:hover {
+    opacity: 0.8;
+  }
+  .edit-blog {
+    position: absolute;
+    right: 15px;
+    top: -5px;
+    z-index: 9;
+  }
+}

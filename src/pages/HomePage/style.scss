@@ -1,0 +1,12 @@
+.list-unstyled {
+  text-align: left;
+}
+
+.pagination {
+  @media only screen and (max-width: 768px) {
+    padding-bottom: 60px;
+  }
+  a {
+    cursor: pointer;
+  }
+}
